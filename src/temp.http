@@ -1,0 +1,8 @@
+# Testing the REST API
+POST https://classify-web.herokuapp.com/api/encrypt HTTP/2.0
+content-type:  application/json
+
+{
+    "data": "Your message",
+    "key": "Your key"
+}
